@@ -1,0 +1,15 @@
+[package]
+name = "system-scheduler"
+version = "0.1.0"
+authors = [
+    "Troy McCabe <troy@apprlabs.com>"
+]
+edition = "2021"
+description = "A crate for interacting with system-based schedulers (`crontab` on Linux, `launchctl` on macOS, `schtasks` on Windows)"
+documentation = "https://docs.rs/system-scheduler"
+homepage = "https://apprlabs.github.io/system-scheduler"
+repository = "https://github.com/apprlabs/system-scheduler"
+license = "MIT"
+keywords = ["schedule", "cron", "crontab", "launchd", "launchctl", "schtasks", "scheduled task"]
+
+[dependencies]
